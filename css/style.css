@@ -455,6 +455,32 @@ button {
     display: inline-block;
 }
 
+.zakaz-adress {
+    margin-left: 8px ;
+    display: block;
+    width: 30%;
+    padding: 15px;
+    font-size: 18pt;
+}
+
+.zakaz-adress span {
+    width: 80px;
+    display: inline-block;
+}
+.zakaz-fio {
+    margin-left: 8px ;
+    margin-bottom: 20px;
+    display: block;
+    width: 30%;
+    padding: 15px;
+    font-size: 18pt;
+}
+
+.zakaz-fio span {
+    width: 80px;
+    display: inline-block;
+}
+
 .modal-header {
     display: flex;
     align-items: center;
