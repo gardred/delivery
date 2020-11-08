@@ -1,0 +1,129 @@
+[
+  {
+    "id": "fb01",
+    "name": "Hamburger",
+    "description": "Булочка, Говядина, Маринованные огурцы, Горчица, Кетчуп, Лук",
+    "price": 18,
+    "image": "img/мак/hamburger.jpg"
+  },
+  {
+    "id": "fb02",
+    "name": "Cheeseburger",
+    "description": "Булочка, Говядина, Сыр Чеддер, Горчица, Маринованные огурцы, Кетчуп, Лук",
+    "price": 20,
+    "image": "img/мак/cheeseburger.jpg"
+  },
+  {
+    "id": "fb03",
+    "name": "McPuisor",
+    "description": "Булочка, Куриное мясо, Маринованные огурцы, Майонез",
+    "price": 18,
+    "image": "img/мак/mcPuisor.jpg"
+  },
+  {
+    "id": "fb04",
+    "name": "McChicken",
+    "description": "Булочка с кунжутом, Куриное мясо, Салат, Соус McChicken",
+    "price": 47,
+    "image": "img/мак/McChicken.jpg"
+  },
+  {
+    "id": "fb05",
+    "name": "Big Mac",
+    "description": "Булочка с кунжутом, Говядина, Маринованные огурцы, Сыр чеддер, Салат, Лук, Соус BigMAc",
+    "price": 50,
+    "image": "img/мак/bigmac.jpg"
+  },
+  {
+    "id": "fb06",
+    "name": "Big Mac Bacon",
+    "description": "Булочка с кунжутом, Говядина, Бекон,Маринованные огурцы, Сыр чеддер, Салат, Лук, Соус BigMAc",
+    "price": 60,
+    "image": "img/мак/bigmacbacon.jpg"
+  },
+  {
+    "id": "fb07",
+    "name": "Big Tasty",
+    "description": "Булочка с кунжутом, Говядина, Помидоры, Сыр эмменталь, Салат, Лук, Соус BigTasty",
+    "price": 71,
+    "image": "img/мак/bigtasty.jpg"
+  },
+  {
+    "id": "fb08",
+    "name": "Двойной Big Tasty",
+    "description": "Булочка с кунжутом, Двойная Говядина, Помидоры, Сыр эмменталь, Салат, Лук, Соус BigTasty",
+    "price": 105,
+    "image": "img/мак/dublu_bigtasty.jpg"
+  },
+  {
+    "id": "fb09",
+    "name": "Royal Deluxe",
+    "description": "Булочка с кунжутом, Говядина, Помидоры, Сыр чеддер, Огурцы, Салат, Лук, Соус",
+    "price": 58,
+    "image": "img/мак/royaldeluxe.jpg"
+  },
+  {
+    "id": "fb10",
+    "name": "Двойной Royal Cheese",
+    "description": "Булочка с кунжутом, Двойная Говядина, Сыр чеддер, Соленые Огурцы, Лук, Кетчуп, Горчица",
+    "price": 75,
+    "image": "img/мак/dublu_royal_cheese.jpg"
+  },
+  {
+    "id": "fb11",
+    "name": "Тройной CheeseBurger",
+    "description": "Булочка, Тройная Говядина, Сыр чеддер, Соленые Огурцы, Лук, Кетчуп, Горчица",
+    "price": 55,
+    "image": "img/мак/triplu_cheeseburger.jpg"
+  },
+  {
+    "id": "fb12",
+    "name": "Beef McWrap",
+    "description": "Говядина, Сыр эмменталь, Свежие Огурцы, Жаренный Лук, Салат Айсберг, Томатный соус с луком, Соус Big Tasty",
+    "price": 58,
+    "image": "img/мак/BeefMcWrap.jpg"
+  },
+  {
+    "id": "fb13",
+    "name": "Fish McWrap",
+    "description": "Рыба, Сыр чеддер, Помидоры,  Салат Айсберг, Соус Тартар",
+    "price": 55,
+    "image": "img/мак/FishMcWrap.jpg"
+  },
+  {
+    "id": "fb14",
+    "name": "Картофель фри - Маленькая порция",
+    "description": "Картофель, соль",
+    "price": 19,
+    "image": "img/мак/Картофельфри-Маленькаяпорция-19лей.jpg"
+  },
+  {
+    "id": "fb15",
+    "name": "Картофель фри - Средняя порция",
+    "description": "Картофель, соль",
+    "price": 28,
+    "image": "img/мак/Картофельфри-Средняяпорция-28lei.jpg"
+  },
+  {
+    "id": "fb16",
+    "name": "Картофель фри - Большая порция",
+    "description": "Картофель, соль",
+    "price": 31,
+    "image": "img/мак/Картофельфри-Большаяпорция-31lei.jpg"
+  },
+  {
+    "id": "fb17",
+    "name": "Coca-Cola",
+    "description": "Кока Кола, Лёд",
+    "price": 25,
+    "image": "img/мак/Coca-Cola-25lei.jpg"
+  },
+  {
+    "id": "fb18",
+    "name": "Fanta",
+    "description": "Fanta, Лёд",
+    "price": 25,
+    "image": "img/мак/Fanta-25lei.jpg"
+  }
+  
+]

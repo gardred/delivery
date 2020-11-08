@@ -179,7 +179,7 @@ function createCardRestaurant({ image, kitchen, name,
         <div class="rating">
           ${stars}
         </div>
-        <div class="price">От ${price} Леи</div>
+        <div class="price">От ${price} Лей</div>
         <div class="category">${kitchen}</div>
       </div>
     </div>
@@ -212,7 +212,7 @@ function createCardGood({ description, id, image, name, price }) {
           <span class="button-card-text">В корзину</span>
           <span class="button-cart-svg"></span>
         </button>
-        <strong class="card-price card-price-bold">${price} Леи</strong>
+        <strong class="card-price card-price-bold">${price} Лей</strong>
       </div>
     </div>
   `);
@@ -237,7 +237,7 @@ function openGoods(event) {
 
       restaurantTitle.textContent = name;
       restaurantRating.textContent = stars;
-      restaurantPrice.textContent = `От ${price} Леи`;
+      restaurantPrice.textContent = `От ${price} Лей`;
       restaurantCategory.textContent = kitchen;
 
       getData(`./db/${restaurant.products}`).then(function(data) {
@@ -280,7 +280,7 @@ function renderCart() {
     const itemCart = `
       <div class="food-row">
         <span class="food-name">${title}</span>
-        <strong class="food-price">${cost} Леи</strong>
+        <strong class="food-price">${cost} </strong>
         <div class="food-counter">
           <button class="counter-button counter-minus" data-id=${id}>-</button>
           <span class="counter">${count}</span>
@@ -296,7 +296,7 @@ function renderCart() {
     return res + (parseFloat(item.cost) * item.count);
   }, 0);
 
-  modalPrice.textContent = totalPrice + ' Леи';
+  modalPrice.textContent = totalPrice + ' Лей';
   saveCart();
 }
 

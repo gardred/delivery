@@ -1,0 +1,142 @@
+[
+  {
+    "id": "kfc01",
+    "name": "Меню 5 Crispy strips",
+    "description": "Crispy strips 5 шт. (острая), картофель фри большая порция 1 шт. соус на выбор, 1 напиток на выбор 0,5 л.",
+    "price": 97,
+    "image": "img/kfc/1.jpg"
+  },
+  {
+    "id": "kfc02",
+    "name": "Меню 8 Crispy strips",
+    "description": "Crispy strips 8 шт. (острая), картофель фри большая порция 1 шт. соус на выбор, 1 напиток на выбор 0,5 л. ",
+    "price": 112,
+    "image": "img/kfc/2.jpg"
+  },
+  {
+    "id": "kfc03",
+    "name": "Меню 5 Hot wings",
+    "description": "Меню 5 Hot wings",
+    "price": 90,
+    "image": "img/kfc/3.jpg"
+  },
+  {
+    "id": "kfc04",
+    "name": "Меню 8 Hot wings",
+    "description": "Hot wings 8 шт. (острые), картофель фри большая порция 1 шт. 1 напиток на выбор 0,5 л.",
+    "price": 104,
+    "image": "img/kfc/4.jpg"
+  },
+  {
+    "id": "kfc05",
+    "name": "Меню Fillet",
+    "description": "Fillet sandwich ( бургер не острый), картофель фри большая порция 1 шт. 1 напиток на выбор 0,5 л.",
+    "price": 455,
+    "image": "img/kfc/5.jpg"
+  },
+  {
+    "id": "kfc06",
+    "name": "Меню Zinger",
+    "description": "Zinger sandwich (острый куриный бургер), картофель фри большая порция 1 шт. 1 напиток на выбор 0,5 л.",
+    "price": 77,
+    "image": "img/kfc/6.jpg"
+  },
+  {
+    "id": "kfc07",
+    "name": "Меню Dublu Booster",
+    "description": "Dublu booster (куриный бургер не острый), картофель фри большая порция 1 шт. 1 напиток на выбор 0,5 л.",
+    "price": 75,
+    "image": "img/kfc/7.jpg"
+  },
+  {
+    "id": "kfc08",
+    "name": "Меню Dublu Hot Booster",
+    "description": "Креветка, снежный краб, гуакамоле, сыр, огурец, микс соусов, тобико, кунжут, 6 шт.",
+    "price": 75,
+    "image": "img/kfc/8.jpg"
+  },
+  {
+    "id": "kfc09",
+    "name": "Меню Dublu Crispy Sandwich",
+    "description": "Dublu Crispy Sandwich (cэндвич с острой куриной грудкой), картофель фри большая порция 1 шт. 1 напиток на выбор 0,5 л.",
+    "price": 75,
+    "image": "img/kfc/9.jpg"
+  },
+  {
+    "id": "kfc10",
+    "name": "Меню Twister fillet bites",
+    "description": "Twister fillet bites (врап куриный не острый), картофель фри большая порция 1 шт. 1 напиток на выбор 0,5 л.",
+    "price": 90,
+    "image": "img/kfc/10.jpg"
+  },
+  {
+    "id": "kfc11",
+    "name": "Chicken Kentucky 5 шт.",
+    "description": "Кусочки куриного мяса ассорти ( не острые)",
+    "price": 82,
+    "image": "img/kfc/11.png"
+  },
+  {
+    "id": "kfc12",
+    "name": "Hot Wings 5 шт.",
+    "description": "Острые куриные крылышки",
+    "price": 60,
+    "image": "img/kfc/12.png"
+  },
+  {
+    "id": "kfc13",
+    "name": "Crispy Strips 5 шт.",
+    "description": "Острая куриная грудка, соус на выбор",
+    "price": 68,
+    "image": "img/kfc/13.png"
+  },
+  {
+    "id": "kfc14",
+    "name": "Fillet Bites 6 шт.",
+    "description": "Куриная грудка (не острая)",
+    "price": 60,
+    "image": "img/kfc/14.png"
+  },
+  {
+    "id": "kfc15",
+    "name": "Corbin Bucket",
+    "description": "Chicken kentucky 2 шт. куриное мясо (не острое), Crispy strips 4 шт. (острая) куриная грудка, 2 большие порции картофеля фри, 2 напитка на выбор",
+    "price": 125,
+    "image": "img/kfc/15.png"
+  },
+  {
+    "id": "kfc16",
+    "name": "So Good Bucket",
+    "description": "Fillet bites 10 шт куриная грудка (не острая), Hot wings 10 шт (острые) куриные крылышки, картофель фри средняя порция 2 шт.",
+    "price": 155,
+    "image": "img/kfc/16.png"
+  },
+  {
+    "id": "kfc17",
+    "name": "Duo Bucket",
+    "description": "Chicken kentucky 4 шт. куриное мясо (не острое), Hot wings 4 шт. (острые) куриные крылышки, 2 большие порции картофеля фри, 2 салата coleslaw, 2 напитка на выбор",
+    "price": 160,
+    "image": "img/kfc/17.png"
+  },
+  {
+    "id": "kfc18",
+    "name": "Hot Bucket",
+    "description": "Hot wings 20 шт. (острые) куриные крылышки",
+    "price": 140,
+    "image": "img/kfc/18.png"
+  },
+  {
+    "id": "kfc19",
+    "name": "Variety Bucket",
+    "description": "Chicken kentucky 4 шт. куриное мясо (не острое) ,Crispy strips 6 шт. (острая) куриная грудка, Hot wings 6 шт. (острые) куриные крылышки",
+    "price": 160,
+    "image": "img/kfc/19.png"
+  },
+  {
+    "id": "kfc20",
+    "name": "Салат Coleslaw",
+    "description": "Белая капуста,лук,морковь,майонез,масло,уксус",
+    "price": 25,
+    "image": "img/kfc/20.png"
+  }
+]
