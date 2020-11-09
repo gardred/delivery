@@ -25,7 +25,7 @@
     "price": 70,
     "kitchen": "Pizza",
     "image": "img/torro/лого.png",
-    "products": "chibox.json"
+    "products": "torro.json"
   },
   {
     "name": "McDonald's",

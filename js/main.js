@@ -293,7 +293,7 @@ function renderCart() {
     `;
     
     
-    document.querySelector('button1').onclick = function(title, cost, count){
+    document.querySelector('button1').onclick = function(){
       let FIO = " " + document.querySelector('.FIO').value;
       let Adress = " " + document.querySelector('.Adress').value;
       let Nomer = " " +document.querySelector('.Nomer').value+ " ";
