@@ -39,7 +39,7 @@ const inputSearch = document.querySelector('.input-search');
 const modalBody = document.querySelector('.modal-body');
 const modalPrice = document.querySelector('.modal-pricetag');
 const buttonClearCart = document.querySelector('.clear-cart');
-
+const finishOrder = document.querySelector('.button-primary');
 
 let login = localStorage.getItem('gloDelivery');
 
@@ -159,6 +159,8 @@ function checkAuth() {
     notAuthorized();
   }
 }
+
+
 
 function createCardRestaurant({ image, kitchen, name, 
   price, stars, products, time_of_delivery: timeOfDelivery }) {
