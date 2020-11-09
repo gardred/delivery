@@ -282,11 +282,11 @@ function renderCart() {
   cart.forEach(function({ title, cost, id, count }) {
     const itemCart = `
       <div class="food-row">
-        <span class="food-name">${title}</span>
-        <strong class="food-price">${cost} </strong>
+        <span class="food-name"> ${title} </span>
+        <strong class="food-price"> ${cost} </strong>
         <div class="food-counter">
           <button class="counter-button counter-minus" data-id=${id}>-</button>
-          <span class="counter">${count}</span>
+          <span class="counter"> ${count} </span>
           <button class="counter-button counter-plus" data-id=${id}>+</button>
         </div>
       </div>
@@ -294,13 +294,14 @@ function renderCart() {
     
     
     document.querySelector('button1').onclick = function(){
-      let FIO = " " + document.querySelector('.FIO').value;
-      let Adress = " " + document.querySelector('.Adress').value;
-      let Nomer = " " +document.querySelector('.Nomer').value+ " ";
+      let FIO = ". ФИО: " + document.querySelector('.FIO').value;
+      let Adress = ". Адресс: " + document.querySelector('.Adress').value;
+      let Nomer = ". Номер: " +document.querySelector('.Nomer').value+ ". ";
+      let space = " ";
       const token = '1494638480:AAHhGPrOgOLJeN0TpvKAPfHFbW6d1RQQPxg';
       let url = 'https://api.telegram.org/bot' + token + '/sendMessage?chat_id=-1001412599279&text='
       let xhttp = new XMLHttpRequest();
-      xhttp.open("GET",url + FIO +  Adress +  Nomer + title + cost + count, true);
+      xhttp.open("GET",url + FIO +  Adress +  Nomer + title +space+ cost + space + count, true);
       xhttp.send();
     }
 
