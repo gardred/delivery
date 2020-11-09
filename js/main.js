@@ -269,6 +269,7 @@ function addToCart(event) {
       food.count++
     } else {
       cart.push({ title, cost, id, count: 1 });
+      //cart.push 
     }
 
     
@@ -290,8 +291,24 @@ function renderCart() {
         </div>
       </div>
     `;
+    
+    
+    document.querySelector('button1').onclick = function(title, cost, count){
+      let FIO = " " + document.querySelector('.FIO').value;
+      let Adress = " " + document.querySelector('.Adress').value;
+      let Nomer = " " +document.querySelector('.Nomer').value+ " ";
+      const token = '1494638480:AAHhGPrOgOLJeN0TpvKAPfHFbW6d1RQQPxg';
+      let url = 'https://api.telegram.org/bot' + token + '/sendMessage?chat_id=-1001412599279&text='
+      let xhttp = new XMLHttpRequest();
+      xhttp.open("GET",url + FIO +  Adress +  Nomer + title + cost + count, true);
+      xhttp.send();
+    }
 
     modalBody.insertAdjacentHTML('afterbegin', itemCart);
+    
+    
+    
+
   });
 
   const totalPrice = cart.reduce(function(res, item) {

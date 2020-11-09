@@ -181,15 +181,15 @@ button {
 }
 
 .kebab {
-    background: #D6E4FF url(../img/promo/kebab.png) no-repeat top 45px right 40px / 450px;
+    background: #90e4e7 url(../img/promo/delivery-man.jpg) no-repeat top 0px right 0px / 450px;
 }
 
 .vegetables {
-    background: #FFF566 url(../img/promo/vegetables.png) no-repeat top 0 right 0 / 825px
+    background: #88d0f1 url(../img/promo/student.jpg) no-repeat top 0 right 0 / 400px
 }
 
 .sushi {
-    background: #FFF1F0 url(../img/promo/sushi.png) no-repeat top 10px right 15px / 500px
+    background: #ddb193 url(../img/promo/суши.jpg) no-repeat top 0px right 0px / 500px
 }
 
 .promo-title {
