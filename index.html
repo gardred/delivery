@@ -43,38 +43,37 @@
 	<!-- /.container  -->
 
 	
-
 	<main class="main">
 		<div class="container">
-			<div class="swiper-container">
-				<div class="container-promo swiper-wrapper">
-					<section class="promo pizza swiper-slide">
-						<h2 class="promo-title">Онлайн-сервис <br/>доставки еды на дом</h2>
-						<p class="promo-text">
-							Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком
-						</p>
-					</section>
-					<section class="promo kebab swiper-slide">
-						<h2 class="promo-title">Оформление заказа после 20:00 <br> скидка 15%</h2>
-						<p class="promo-text">
-							Даешь ночной жор
-						</p>
-					</section>
-					<section class="promo vegetables swiper-slide">
-						<h2 class="promo-title">Скидка 10% на всю еду <br> по промокоду LOVE.UTM</h2>
-						<p class="promo-text">
-						Сытый студент = Продуктивный студент :D
-						</p>
-					</section>
-					<section class="promo sushi swiper-slide">
-						<h2 class="promo-title">Горячие роллы со скидкой 10%  <br> На весь зимний период </h2>
-						<p class="promo-text">
-							Замерз? Поешь.
-						</p>
-					</section>
-				</div>
-
+		  <div class="swiper-container">
+			<div class="container-promo swiper-wrapper">
+			  <section class="promo pizza swiper-slide">
+				<h2 class="promo-title">Онлайн-сервис <br/>доставки еды на дом</h2>
+				<p class="promo-text">
+				  Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком
+				</p>
+			  </section>
+			  <section class="promo kebab swiper-slide">
+				<h2 class="promo-title">Оформление заказа после 20:00 <br> скидка 15%</h2>
+				<p class="promo-text">
+				  Даешь ночной жор
+				</p>
+			  </section>
+			  <section class="promo vegetables swiper-slide">
+				<h2 class="promo-title">Скидка 10% на всю еду <br> по промокоду LOVE.UTM</h2>
+				<p class="promo-text">
+				Сытый студент = Продуктивный студент :D
+				</p>
+			  </section>
+			  <section class="promo sushi swiper-slide">
+				<h2 class="promo-title">Горячие роллы со скидкой 10%  <br> На весь зимний период </h2>
+				<p class="promo-text">
+				  Замерз? Поешь.
+				</p>
+			  </section>
 			</div>
+	
+		  </div>
 			<section class="restaurants">
 				<div class="section-heading">
 					<h2 class="section-title">Рестораны</h2>
@@ -182,7 +181,7 @@
 
 			<!-- /.modal-body -->
 			<div class="zakaz-adress">
-				<input type="text" class="Adress" placeholder="Адрес заказа" size="50">
+				<input type="text" class="Adres" placeholder="Адрес заказа" size="50">
 			</div>
 			<div class="zakaz-tele">
 				<input type="text" class="Nomer" placeholder="Номер телефона" size="50">
@@ -194,7 +193,16 @@
 			<div class="modal-footer">
 				<span class="modal-pricetag">1250 ₽</span>
 				<div class="footer-buttons">
-					<button1 class="button button-primary">Оформить заказ</button1>
+					<div class="dws">
+						<a href="#openModal"style="text-decoration:none"> <button1  class="button button-primary" > Оформить Заказ</button1></a>
+						<div id="openModal" class="modalDialog">
+					<div>
+						<a href="#close" title="Закрыть" class="close">X</a>
+						<h2>Заказ оформлен</h2>
+						<p>Спасибо! Курьер скоро будет у вас!</p>
+					</div>
+				</div>
+					
 					<button class="button clear-cart">Отмена</button>
 				</div>
 			</div>
@@ -257,8 +265,8 @@
 
 	<script src="js/disabledScroll.js"></script>
 	<script src="js/main.js"></script>
-	<script src="js/cookies.js"></script>	
-	<script src="js/bot.js"></script>	
+	<script src="js/cookies.js"></script>
+	<script src="js/zakaz.js"></script>	
 
 
 

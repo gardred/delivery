@@ -14,6 +14,7 @@ const swiper = new Swiper('.swiper-container', optionSlider)
 const RED_COLOR = '#ff0000';
 
 const cartButton = document.querySelector("#cart-button");
+const ofButton = document.querySelector(".of-button");
 const modal = document.querySelector(".modal");
 const close = document.querySelector(".close");
 const buttonAuth = document.querySelector('.button-auth');
@@ -269,49 +270,51 @@ function addToCart(event) {
       food.count++
     } else {
       cart.push({ title, cost, id, count: 1 });
-      //cart.push 
     }
 
     
     saveCart();
   }
 }
-
+const copy = []
 function renderCart() {
   modalBody.textContent = '';
   cart.forEach(function({ title, cost, id, count }) {
     const itemCart = `
       <div class="food-row">
-        <span class="food-name"> ${title} </span>
-        <strong class="food-price"> ${cost} </strong>
+        <span class="food-name">${title}</span>
+        <strong class="food-price">${cost} </strong>
         <div class="food-counter">
           <button class="counter-button counter-minus" data-id=${id}>-</button>
-          <span class="counter"> ${count} </span>
+          <span class="counter">${count}</span>
           <button class="counter-button counter-plus" data-id=${id}>+</button>
         </div>
       </div>
     `;
-    
-    
+    console.log(title, cost, id, count);
+    copy.push( title, cost, count);
     document.querySelector('button1').onclick = function(){
-      let FIO = ". ФИО: " + document.querySelector('.FIO').value;
-      let Adress = ". Адресс: " + document.querySelector('.Adress').value;
+      let FIO = "ФИО: " + document.querySelector('.FIO').value;
+      let Adres = ". Адресс: " + document.querySelector('.Adres').value;
       let Nomer = ". Номер: " +document.querySelector('.Nomer').value+ ". ";
       let space = " ";
-      const token = '1494638480:AAHhGPrOgOLJeN0TpvKAPfHFbW6d1RQQPxg';
-      let url = 'https://api.telegram.org/bot' + token + '/sendMessage?chat_id=-1001412599279&text='
+      let bludo = "Блюдо:"
+      let price = "Цена:"
+      let kol = "Количество:"
+      let punct = "."
+      const token = '1249011433:AAGuJmxq6DyXBiinWwxy6raKiSzkl7acOqk';
+      let url = 'https://api.telegram.org/bot' + token + '/sendMessage?chat_id=-467019156&text='
       let xhttp = new XMLHttpRequest();
-      xhttp.open("GET",url + FIO +  Adress +  Nomer + title +space+ cost + space + count, true);
+      xhttp.open("GET",url + FIO + Adres + Nomer +  copy , true);
       xhttp.send();
+      copy.length = 0
     }
-
+    
+    
     modalBody.insertAdjacentHTML('afterbegin', itemCart);
-    
-    
-    
-
   });
 
+  
   const totalPrice = cart.reduce(function(res, item) {
     return res + (parseFloat(item.cost) * item.count);
   }, 0);
